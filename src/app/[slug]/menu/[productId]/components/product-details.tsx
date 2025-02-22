@@ -32,7 +32,7 @@ const ProductDetails = ({ product }: ProductDetailsProps) => {
       return prev - 1;
     });
   }
-  const handleIncreaseQuantity = () => setQuantity((prev) => prev - 1);
+  const handleIncreaseQuantity = () => setQuantity((prev) => prev + 1);
   const handleAddToCart = () => {
     addProduct({
       ...product,
