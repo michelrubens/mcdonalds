@@ -9,7 +9,7 @@ export interface CartProduct extends Pick<Product, "id" | "name" | "price" | "im
 
 export interface ICartContext {
   isOpen: boolean;
-  products: [];
+  products: CartProduct[];
   total: number;
   totalQuantity: number;
   toggleCart: () => void;
