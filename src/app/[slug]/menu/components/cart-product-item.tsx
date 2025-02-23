@@ -26,7 +26,7 @@ const CartProductItem = ({ product }: CartItemProps) => {
             <Button className="w-7 h-7 rounded-lg" variant="outline" onClick={() => decreaseProductQuantity(product.id)}>
               <ChevronLeftIcon />
             </Button>
-            <p className="w-7">{product.quantity}</p>
+            <p className="w-7 text-xs">{product.quantity}</p>
             <Button className="w-7 h-7 rounded-lg" variant="destructive" onClick={() => increaseProductQuantity(product.id)}>
               <ChevronRightIcon />
             </Button>
