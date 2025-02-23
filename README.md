@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![McDonald's](https://mcdonalds-steel.vercel.app/_next/image?url=https%3A%2F%2Fu9a6wmr3as.ufs.sh%2Ff%2FjppBrbk0cChQvcNP9rHlEJu1vCY5kLqzjf29HKaeN78Z6pRy&w=96&q=75)
 
-## Getting Started
+# McDonald's Clone 🍔
 
-First, run the development server:
+Este projeto é uma réplica do site do totem de autoatendimento do McDonald's desenvolvida com **Next.js** e **TypeScript**. O objetivo foi praticar habilidades Full Stack, seguindo o curso **Full Stack Week**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js** - Framework React para aplicações web
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **TypeScript** - Tipagem estática para JavaScript
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Tailwind CSS** - Estilização moderna e eficiente
 
-## Learn More
+- **Neon Console** - Banco de dados PostgreSQL na nuvem
 
-To learn more about Next.js, take a look at the following resources:
+- **Prisma** - ORM para gerenciamento do banco de dados
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **shadcn** - Biblioteca de componentes estilizados com Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📌 Funcionalidades
 
-## Deploy on Vercel
+- Tela de seleção entre comer no restaurante ou levar para viagem
+- Tela do restaurante com lista de produtos dividida por categorias
+- Tela de detalhes do produto com menus para adição de itens
+- Carrinho de compras
+- Simulação do totem de autoatendimento
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📱 UI Mobile
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Capa](https://github.com/user-attachments/assets/4b6d77c4-3ada-4177-bc4f-cbb134973b63)
+
+## 🔧 Como Executar o Projeto
+
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/michelrubens/mcdonalds.git
+   ```
+2. Acesse a pasta do projeto:
+   ```sh
+   cd mcdonalds
+   ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   # ou
+   yarn install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm run dev
+   # ou
+   yarn dev
+   ```
+5. Acesse o projeto em: [http://localhost:3000](http://localhost:3000)
+
+## 🛠️ Personalização
+
+Caso queira modificar o projeto, edite os arquivos dentro da pasta `src/` e reinicie o servidor.
+
+## 📄 Licença
+
+Este projeto foi desenvolvido apenas para fins educacionais. Todos os direitos da marca McDonald's pertencem aos seus respectivos proprietários.
+
+---
+
+📌 **Repositório no GitHub:** [Michel Rubens - McDonald's Clone](https://github.com/michelrubens/mcdonalds)
+
+
