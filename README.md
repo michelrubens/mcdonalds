@@ -54,6 +54,8 @@ Este projeto é uma réplica do site do totem de autoatendimento do McDonald's d
    ```
 5. Acesse o projeto em: [http://localhost:3000](http://localhost:3000)
 
+- Teste em: `<URL>/fsw-donalds`
+
 ## 🛠️ Personalização
 
 Caso queira modificar o projeto, edite os arquivos dentro da pasta `src/` e reinicie o servidor.
